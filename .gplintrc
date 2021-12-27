@@ -3,19 +3,18 @@
     "on",
     {
       "Feature": 0,
-      "Background": 0,
-      "Scenario": 0,
+      "Background": 2,
+      "Scenario": 2,
       "Step": 2,
-      "Examples": 0,
-      "example": 2,
-      "given": 2,
-      "when": 2,
-      "then": 2,
-      "and": 2,
-      "but": 2,
+      "Examples": 4,
+      "example": 6,
+      "given": 4,
+      "when": 4,
+      "then": 4,
+      "and": 4,
+      "but": 4,
       "feature tag": 0,
-      "scenario tag": 0,
-      "examples tag": 0
+      "scenario tag": 2
     }
   ],
   "no-trailing-spaces": "on",
@@ -36,18 +35,8 @@
       "global": [
         "/^@ID\\.APP-[0-9]+$/"
       ],
-      "feature": [
-        "/@feature\\..+/"
-      ],
       "rule": [
         "/^@user-case\\..+$/"
-      ],
-      "scenario": [
-        [
-          "@ready",
-          "@manual",
-          "@wip"
-        ]
       ],
       "example": [
         "/^@type\\..+$/"
