@@ -1,0 +1,8 @@
+{
+  "name": "gplint-config-sdet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "gplint": "^1.2.1"
+  }
+}
