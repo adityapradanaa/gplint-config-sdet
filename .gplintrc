@@ -32,10 +32,10 @@
   "required-tags": [
     "on",
     {
-      "global": [
-        "/^@ID\\.APP-[0-9]+$/"
+      "feature": [
+        "/@"
       ],
-      "extendRule": true,
+      "extendRule": false,
       "extendExample": true,
       "ignoreUntagged": false
     }
