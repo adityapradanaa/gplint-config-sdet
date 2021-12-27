@@ -33,7 +33,7 @@
     "on",
     {
       "feature": [
-        "/@"
+        "/^@"
       ],
       "extendRule": false,
       "extendExample": true,
