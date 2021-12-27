@@ -29,17 +29,6 @@
       "countOutlineExamples": true
     }
   ],
-  "required-tags": [
-    "on",
-    {
-      "feature": [
-        "/^@\\..+/"
-      ],
-      "extendRule": false,
-      "extendExample": true,
-      "ignoreUntagged": false
-    }
-  ],
   "max-tags-lines": [
     "on",
     {
