@@ -1,0 +1,102 @@
+{
+  "indentation": [
+    "on",
+    {
+      "Feature": 0,
+      "Background": 0,
+      "Scenario": 0,
+      "Step": 2,
+      "Examples": 0,
+      "example": 2,
+      "given": 2,
+      "when": 2,
+      "then": 2,
+      "and": 2,
+      "but": 2,
+      "feature tag": 0,
+      "scenario tag": 0,
+      "examples tag": 0
+    }
+  ],
+  "no-trailing-spaces": "on",
+  "new-line-at-eof": [
+    "on",
+    "yes"
+  ],
+  "max-scenarios-per-file": [
+    "on",
+    {
+      "maxScenarios": 10,
+      "countOutlineExamples": true
+    }
+  ],
+  "required-tags": [
+    "on",
+    {
+      "global": [
+        "/^@ID\\.APP-[0-9]+$/"
+      ],
+      "feature": [
+        "/@feature\\..+/"
+      ],
+      "rule": [
+        "/^@user-case\\..+$/"
+      ],
+      "scenario": [
+        [
+          "@ready",
+          "@manual",
+          "@wip"
+        ]
+      ],
+      "example": [
+        "/^@type\\..+$/"
+      ],
+      "extendRule": true,
+      "extendExample": true,
+      "ignoreUntagged": false
+    }
+  ],
+  "max-tags-lines": [
+    "on",
+    {
+      "feature": 1,
+      "scenario": 5,
+      "example": 5
+    }
+  ],
+  "name-length": [
+    "on",
+    {
+      "Feature": 70,
+      "Scenario": 70,
+      "Step": 70
+    }
+  ],
+  "no-dupe-scenario-names": [
+    "on",
+    "anywhere"
+  ],
+  "scenario-size": [
+    "on",
+    {
+      "steps-length": {
+        "Background": 15,
+        "Scenario": 15
+      }
+    }
+  ],
+  "table-align": [
+    "on",
+    {
+      "steps": true,
+      "examples": true
+    }
+  ],
+  "file-name": [
+    "on",
+    {
+      "style": "snake_case"
+    }
+  ]
+}
