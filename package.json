@@ -4,5 +4,9 @@
   "main": "index.js",
   "dependencies": {
     "gplint": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityapradanaa/gplint-config-sdet.git"
   }
 }
