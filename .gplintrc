@@ -32,15 +32,6 @@
   "required-tags": [
     "on",
     {
-      "global": [
-        "/^@ID\\.APP-[0-9]+$/"
-      ],
-      "rule": [
-        "/^@user-case\\..+$/"
-      ],
-      "example": [
-        "/^@type\\..+$/"
-      ],
       "extendRule": true,
       "extendExample": true,
       "ignoreUntagged": false
